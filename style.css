@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.intro-chunk {
+  min-height: 50%;
+  margin: 100px 100px 0 100px;
+}
+
+.intro-chunk p {
+  max-width: 40%;
+  line-height: 1.5rem;
+}
+
+main {
+  background-color: gray;
+  padding: 100px;
+}
+
+.card {
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px 50px 20px 50px;
+}
+
+.indented-heading {
+  background-color: gold;
+  width: max-content;
+  padding: 20px;
+  border-bottom: solid 8px darkgoldenrod;
+  margin-left: -85px;
+}
